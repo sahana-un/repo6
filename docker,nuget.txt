@@ -1,0 +1,62 @@
+docker
+
+:docker login jfrogicicilombard.com
+username
+password
+
+:docker images
+
+Go to site -->https://hub.docker.com/
+search hello-world -->okteto/hello-world
+copy the command ->   docker pull hello-world
+: docker pull jfrogicicilombard.com/<remotereponame>/alpine  (remote repo)
+:docker images
+: docker tag jfrogicicilombard.com/<localreponame>/alpine jfrogicicilombard.com/<localreponame>/alpine:v1
+:docker images 
+:docker push jfrogicicilombard.com/<localreponame>/alpine:v1
+
+
+
+
+
+we have to install wsl
+
+we have to open the docker container 
+
+:docker version
+
+: "C:\Program Files\Docker\Docker\DockerCli.exe" -SwitchDaemon
+
+: docker login -usahana hemalatha.jfrog.io
+
+: docker tag 9c7a54a9a43c hemalatha.jfrog.io/test-docker-local/hello-world:latest
+
+: docker images
+
+: docker run hello-world
+
+: docker push hemalatha.jfrog.io/test-docker-local/hello-world:latest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nuget
+
+Command-name	nuget-config / dotnet-config
+
+
+
+cmVmdGtuOjAxOjE3MTg0NDk5MzU6VWI0aVU2U01wMWRreW5hZXd3TmVrTUhQMVFU
