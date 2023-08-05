@@ -1,1 +1,2 @@
 *docker,nuget,txt filter=lfs diff=lfs merge=lfs -text
+*docker,nuget.txt filter=lfs diff=lfs merge=lfs -text
